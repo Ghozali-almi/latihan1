@@ -30,7 +30,7 @@ if (isset($_POST['username']) && isset($_POST['password'])) {
         echo "</pre>";
 
     } else {
-        echo "Username atau password salah";
+        echo "Your Username or password wrong!";
     }
 } else {
     // Jika tidak ada data POST (misalnya, setelah logout atau akses langsung), 
